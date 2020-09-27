@@ -1,9 +1,12 @@
+/*파일을 import하는 순서 중요. 바뀌면 작동 안됨*/
+/*폰트-리셋-변수-components-screens*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 @import "reset.css";
 @import "variables.css";
 
 /* Components */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
 /* Screens */
 @import "screens/login.css";
 
