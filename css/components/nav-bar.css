@@ -13,4 +13,28 @@
 }
 .nav__link{
     color:#2e363e;
+    position: relative; /*position: absolute;의 사용을 위해*/
+}
+.nav__notification__talk{
+    background-color: tomato;
+    display:block; /*span이므로 block이어야 width와 height 적용 가능*/
+    width: 30px;
+    height:30px;
+    border-radius:15px; /*원을 만드려면 width의 절반을 쓰기*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight:600;
+    position: absolute;/*겹쳐서 쓸 수 있게*/
+    left: 15px;
+    bottom: 15px;
+}
+.nav__notification__ellipsis{
+    background-color: tomato;
+    width:5px;
+    height: 5px;
+    border-radius: 2.5px;
+    position: absolute;
+    left:30px;
 }
