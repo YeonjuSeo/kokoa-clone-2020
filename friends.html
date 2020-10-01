@@ -64,8 +64,10 @@
                     </div>
                 </div>
                 <div class="user-component__column">
-                    <span>2</span>
-                    <i class="fas fa-chevron-right fa-xs"></i>
+                    <div> <!--chats.html badge의 오른쪽 가장자리 정렬에 영향을 받지 않게 하려고(=badge 아빠의 display:flex에) div에 넣어줌-->
+                        <span>2</span>
+                        <i class="fas fa-chevron-right fa-xs"></i>
+                    </div>
                 </div>
             </div>
         </div>
@@ -79,18 +81,18 @@
                 </a>
             </li>
             <li class="nav__btn">
-                <a class="nav__link" href="#">
-                    <span class="nav__notification__talk">1</span>
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification__talk badge">1</span>
                     <i class="far fa-comment fa-2x"></i>
                 </a>
             </li>
             <li class="nav__btn">
-                <a class="nav__link" href="#">
+                <a class="nav__link" href="find.html">
                     <i class="fas fa-search fa-2x"></i>
                 </a>
             </li>
             <li class="nav__btn">
-                <a class="nav__link" href="#">
+                <a class="nav__link" href="more.html">
                     <span class="nav__notification__ellipsis"></span>
                     <i class="fas fa-ellipsis-h fa-2x"></i>
                 </a>
