@@ -10,6 +10,18 @@
     font-weight:600;
     margin-top: 20px;
 }
+.screen-header__icons{
+    position:relative;
+}
 .screen-header__icons span{
     margin-left: 25px;
+}
+.screen-header__notification__cog{
+    background-color: tomato;
+    width:5px;
+    height: 5px;
+    border-radius:2.5px;
+    position:absolute;
+    left:74px;
+    bottom:16px;
 }
