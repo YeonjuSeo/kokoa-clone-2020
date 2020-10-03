@@ -24,6 +24,12 @@
     margin-top:8px;
     font-size:17px;
     color:rgba(0,0,0,0.5);
+    display:flex;
+}
+.user-component__subtitle-notification{
+    display:flex;
+    margin-left:5px;
+    color: tomato;
 }
 .user-component__avatar--xl{
     width:80px;
