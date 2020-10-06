@@ -25,3 +25,26 @@
     justify-content: space-between; /*이거 하려고 display: flex*/
     color:var(--gray);
 }
+@keyframes hideSplashScreen{
+    from{
+        opacity:1;
+    }
+    to{
+        opacity:0;
+        visibility:hidden;
+        /*진짜로 html에서 없애려면 java script 필요*/
+    }
+}
+#splash-screen{
+    background-color: var(--yellow);
+    position:absolute;
+    height:100vh;
+    width:100vw;
+    top:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:132px;
+    animation:hideSplashScreen 0.3s ease-in-out forwards;
+    animation-delay:2s;
+}
