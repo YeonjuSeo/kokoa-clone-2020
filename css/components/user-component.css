@@ -44,14 +44,29 @@
 .user-component__title--not-bold{
     font-weight:400;
 }
-
+.user-component__column:first-child{
+    width:80%;
+}
 .user-component__column:last-child{
+    width:20%;
     color:rgba(0,0,0,0.4);
     display: flex;
     flex-direction:column;
     align-items: flex-end;
+    margin-left:15px;
 }
 .user-component__time{
     display:block;
     margin-bottom: 10px;
+}
+.user-component__music{
+    border: 1.5px solid rgba(92, 238, 92, 1);
+    border-radius:30px;
+    padding: 10px;
+    display:flex;
+    flex-direction:row;
+    align-items:flex-end;
+}
+.user-component__music-title{
+    font-size: 14px;
 }
