@@ -1,7 +1,7 @@
 .user-component{
     display: flex;
     justify-content: space-between;
-    margin-bottom:10px;
+    margin-bottom:15px;
 }
 .user-component,
 .user-component__column:first-child{
@@ -65,8 +65,12 @@
     padding: 10px;
     display:flex;
     flex-direction:row;
-    align-items:flex-end;
+    align-items:flex-start;
 }
 .user-component__music-title{
-    font-size: 14px;
+    font-size: 12px;
+    
+}
+.user-component__music-title a{
+    margin-left:5px;
 }
