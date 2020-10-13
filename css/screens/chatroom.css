@@ -66,6 +66,7 @@
 .message__info{
     display: flex;
     align-items:flex-end;
+    margin-bottom:5px;
 }
 .message__bubble{
     background-color: white;
