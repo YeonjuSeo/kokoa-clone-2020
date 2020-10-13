@@ -7,10 +7,16 @@
     display:flex;
     flex-direction: column;
     align-items:center;
+    position:relative;
 }
 .icon-row__icon i{
     font-size: 35px; /*icon의 크기를 font-size로도 조절할 수 있다는 신기한 사실...*/
 }
 .icon-row__icon span{
     margin-top:18px;
+}
+.icon-row__icon .nav__notification__ellipsis{
+    position:absolute;
+    left:35px;
+    bottom:75px;
 }
