@@ -1,0 +1,31 @@
+body {
+  background-color: tomato;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.outline {
+  background-color: wheat;
+  border: 2px solid black;
+  padding: 20px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.outline div {
+  background-color: teal;
+  height: 40px;
+}
+.top,
+.bottom {
+  border: 2px solid white;
+  width: 40px;
+}
+.middle {
+  border: 2px dashed white;
+  width: 140px;
+}
