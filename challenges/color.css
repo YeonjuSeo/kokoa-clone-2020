@@ -1,0 +1,46 @@
+body {
+  background-color: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+section {
+  display: flex;
+  justify-content: center;
+}
+form {
+  width: 150px;
+  height: 250px;
+  border: 4px solid white;
+  position: relative;
+  margin: 7px 5px;
+  font-weight: 800;
+  background-color: tomato;
+}
+.first-row > form:last-child {
+  background-color: teal;
+}
+.second-row > form:first-child {
+  background-color: burlywood;
+}
+.second-row > form:last-child {
+  background-color: thistle;
+}
+form > div {
+  position: absolute;
+  background-color: white;
+  width: 150px;
+  top: 15px;
+}
+form > div > div {
+  padding: 8px;
+}
+form > div > div:first-child {
+  font-size: 20px;
+}
+form > div > div:last-child {
+  font-size: 13px;
+}
