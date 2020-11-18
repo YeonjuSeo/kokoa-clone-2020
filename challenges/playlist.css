@@ -1,0 +1,109 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border: 5px solid rgb(55, 192, 178);
+  padding: 25px 25px 0px 25px;
+}
+header {
+  font-size: 30px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px;
+}
+header i {
+  width: 35%;
+}
+header span {
+  width: 65%;
+  display: flex;
+  justify-content: flex-start;
+}
+.music {
+  display: flex;
+  justify-content: center;
+}
+.music__cover {
+  background-color: rgb(255, 196, 0);
+  height: 150px;
+  width: 150px;
+  border-radius: 20px;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  color: white;
+  margin-right: 15px;
+}
+.music__info {
+  font-weight: bolder;
+  width: 60%;
+}
+.music__info div:first-child {
+  font-size: 44px;
+}
+.music__info div:last-child {
+  font-size: 20px;
+  margin-top: 5px;
+}
+.btns {
+  display: flex;
+  font-size: 25px;
+  font-weight: bolder;
+  margin: 40px 0px;
+  justify-content: space-between;
+}
+.btn__play {
+  padding: 15px 60px;
+  border: 3px solid black;
+  border-radius: 20px;
+  box-shadow: 0px 5px;
+}
+.btn__play i {
+  margin-right: 5px;
+}
+.btn__like,
+.btn__add {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid black;
+  box-shadow: 0px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}
+.btn__add {
+  font-size: 30px;
+}
+.music-list__music {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.music-list__cover {
+  height: 60px;
+  width: 60px;
+  border: 3px solid black;
+  border-radius: 15px;
+  margin-right: 15px;
+}
+.music-list__music:first-child .music-list__cover {
+  background-color: rgb(252, 78, 47);
+}
+.music-list__music:nth-child(2) .music-list__cover {
+  background-color: rgb(252, 135, 174);
+}
+.music-list__music:nth-child(3) .music-list__cover {
+  background-color: rgb(61, 61, 248);
+}
+.music-list__music:last-child .music-list__cover {
+  background-color: rgb(18, 204, 185);
+}
+.music-list__info div:first-child {
+  font-weight: bolder;
+  font-size: 22px;
+}
