@@ -16,7 +16,6 @@ div {
 }
 .dot {
   animation: Rotate 0.8s ease infinite;
-  animation-delay: 1s;
 }
 @keyframes Rotate {
   from {
